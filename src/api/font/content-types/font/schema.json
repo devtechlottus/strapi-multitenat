@@ -24,6 +24,12 @@
       "required": true,
       "component": "fonts.google-font"
     },
+    "icons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fonts.google-font",
+      "required": true
+    },
     "extra_fonts": {
       "type": "component",
       "repeatable": true,
