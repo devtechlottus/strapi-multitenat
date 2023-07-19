@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_fonts_extra_local_fonts",
+  "info": {
+    "displayName": "extra local font"
+  },
+  "options": {},
+  "attributes": {
+    "token": {
+      "type": "string"
+    },
+    "font": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fonts.local-font"
+    }
+  }
+}
