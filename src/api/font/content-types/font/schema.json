@@ -13,27 +13,35 @@
   "pluginOptions": {},
   "attributes": {
     "headings": {
-      "type": "component",
-      "repeatable": false,
-      "component": "fonts.google-font",
-      "required": true
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1
     },
-    "texts": {
-      "type": "component",
-      "repeatable": false,
-      "required": true,
-      "component": "fonts.google-font"
+    "text": {
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1
     },
     "icons": {
-      "type": "component",
-      "repeatable": false,
-      "component": "fonts.google-font",
-      "required": true
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1
     },
     "extra_fonts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "fonts.extra-font"
+      "type": "dynamiczone",
+      "components": [
+        "fonts.extra-font",
+        "fonts.extra-local-font"
+      ]
     }
   }
 }
