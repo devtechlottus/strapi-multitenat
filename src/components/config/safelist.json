@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "class": {
+    "token": {
       "type": "string"
     }
   }
