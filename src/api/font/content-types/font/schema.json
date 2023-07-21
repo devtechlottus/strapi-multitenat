@@ -43,7 +43,7 @@
       "type": "dynamiczone",
       "components": [
         "fonts.extra-font",
-        "fonts.extra-local-font"
+        "fonts.local-font"
       ]
     }
   }

@@ -5,6 +5,9 @@
   },
   "options": {},
   "attributes": {
+    "token": {
+      "type": "string"
+    },
     "font": {
       "type": "enumeration",
       "enum": [
