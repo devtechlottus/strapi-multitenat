@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_config_safelists",
+  "info": {
+    "displayName": "safelist",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "token": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_config_variables",
+  "info": {
+    "displayName": "variables",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "token": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

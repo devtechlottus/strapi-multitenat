@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "fonts",
+  "info": {
+    "singularName": "font",
+    "pluralName": "fonts",
+    "displayName": "font",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headings": {
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1,
+      "required": true
+    },
+    "texts": {
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1,
+      "required": true
+    },
+    "icons": {
+      "type": "dynamiczone",
+      "components": [
+        "fonts.google-font",
+        "fonts.local-font"
+      ],
+      "max": 1,
+      "required": true
+    },
+    "extra_fonts": {
+      "type": "dynamiczone",
+      "components": [
+        "fonts.extra-font",
+        "fonts.local-font"
+      ]
+    }
+  }
+}
