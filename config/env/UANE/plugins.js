@@ -22,4 +22,10 @@ module.exports = ({ env }) => ({
       roles: ["strapi-super-admin"],
     },
   },
+  'import-export-entries': {
+    enabled: true,
+    config: {
+      // See `Config` section.
+    },
+  },
 });
