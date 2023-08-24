@@ -20,6 +20,7 @@
     "mysql": "^2.18.1",
     "pg": "^8.8.0",
     "pm2": "^5.2.2",
+    "strapi-plugin-import-export-entries": "^1.21.1",
     "strapi-plugin-react-editorjs": "^2.0.2",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
