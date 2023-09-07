@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_logos_errors",
+  "info": {
+    "displayName": "errors"
+  },
+  "options": {},
+  "attributes": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "default_message": {
+      "type": "string"
+    }
+  }
+}
