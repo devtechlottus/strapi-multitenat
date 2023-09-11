@@ -1,7 +1,8 @@
 {
   "collectionName": "components_logos_error_images",
   "info": {
-    "displayName": "error_images"
+    "displayName": "error_images",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,16 +10,20 @@
       "type": "string"
     },
     "error_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "default_message": {
+      "type": "string"
+    },
+    "default_title": {
       "type": "string"
     }
   }
