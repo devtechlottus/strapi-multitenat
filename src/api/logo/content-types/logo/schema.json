@@ -4,7 +4,8 @@
   "info": {
     "singularName": "logo",
     "pluralName": "logos",
-    "displayName": "Logo"
+    "displayName": "Logo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,26 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "favicon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "extra_logos": {
       "displayName": "Custom logo",
       "type": "component",
       "repeatable": true,
       "component": "logos.custom-logo"
+    },
+    "error_logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "logos.error-images"
     }
   }
 }

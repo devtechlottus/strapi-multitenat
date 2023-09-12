@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_logos_error_images",
+  "info": {
+    "displayName": "error_images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "default_message": {
+      "type": "string"
+    },
+    "default_title": {
+      "type": "string"
+    }
+  }
+}
